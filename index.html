@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>QUIZ - PERGUNTAS E RESPOSTAS</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+    <!-- <div id="cabecalho"> -->
+        <!-- <input onclick="vai()" type="radio" name="check" value="inicio"> Início -->
+        <!-- <input onclick="vai()" type="radio" name="check" value="apresentacao"> Apresentação
+        <input onclick="vai()" type="radio" name="check" value="autores"> Autores -->
+    <!-- </div> -->
+    <!-- <p></p> // 'p' é referenciado na função 'vai' do JS -->
+
+    <h1>QUIZ</h1>
+    <a href="#start" onclick="Mudarestado('altern')" value="start">Start</a> <!--Start no jogo-->
+    
+
+    
+    <main id="altern"> <!--Tela principal-->
+        <section>
+
+            <h2 id='instrucao'>
+                Leia atentamente a questão e escolha sua resposta!
+            </h2>
+
+            <article class='questoes'> <!-- article que armazena a questão completa-->
+                
+                <header class='questao'> <!--Parte de cima da questão-->
+                    <span id='numquest'></span> <!--Numero da pergunta-->
+                    <h2 id='pergunta'></h2> <!--Texto da pergunta-->
+                </header>
+
+                <div> <!--corpo da pergunta-->
+                     <ol id='alternativas'>
+                        <li id='a' value='1A' class='respostas' onClick='checar(this, this)'></li>
+                        <li id='b' value='1B' class='respostas' onClick='checar(this, this)'></li>
+                        <li id='c' value='1C' class='respostas' onClick='checar(this, this)'></li>
+                        <li id='d' value='1D' class='respostas' onClick='checar(this, this)'></li>
+                        <!--value: numero da questao e letra da alternativa, onclick com dois parametros: 'nQuestao' e 'resposta'-->
+                    </ol>
+                </div>
+            </article>
+            
+            <article id='recado'>Questão <span id='numero'></span> de <span id='total'></span></article>
+            <!--Article para aparecer a questão e seu respectivo numero-->
+
+            <button id="bot" onClick ="window.location.reload()">Reiniciar</button>
+            <!--botão para reiniciar o jogo-->
+
+        </section>
+    </main>
+
+<!-- JS externo -->
+<script src="js/quizjs.js"></script>
+
+</body>    
+</html>
