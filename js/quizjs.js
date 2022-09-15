@@ -8,23 +8,6 @@ function Mudarestado(altern) {
 	  document.getElementById(altern).style.display = 'none';
   }
 
-  //função referenciando a div 'cabeçalho'
-//   function vai(){
-//     let um = $("input[name='check']:checked").val();
-
-//     if(um == 'inicio'){
-//         let z = $('p');
-//         z.text('')
-//     }else if(um == 'apresentacao'){
-//         let z = $('p');
-//         z.text ('Seja bem-vindo(a) ao Quiz, seu jogo de perguntas e respostas. Aqui você testará seu conhecimento nos mais diversos tipos de assuntos.')
-//     }else{
-//             let z = $('p');
-//             z.text ('Bernardo Brito: Aposentado, morador de Águas Claras procurando conhecimento e melhoria de rendimento com trabalho remoto e Kaio César: Morador da cidade do Gama. Busca fazer suas atividades sempre de forma simples e criativa.')
-//         }
-// }
-
-
 let instrucao = document.querySelector('#instrucao') //seleciona h2
 let recado = document.querySelector('#recado') //seleciona o article do id 'recado', o qual aparece a questão e seu respectivo numero
 let pontos = 0 // variavel de pontos para o placar parcial
