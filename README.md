@@ -1,4 +1,4 @@
-# quizkaio
+Quiz
 acesso: https://kaiocesarnp.github.io/quizkaio/
 
 Site em uma única página HTML e utilizando CSS; a implementação do projeto é escrita em Javascript + jQuery.
