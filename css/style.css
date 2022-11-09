@@ -12,13 +12,6 @@
     font-size: 1.15rem;
 }
 
-#cabecalho{
-    text-align: center;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(0, 0, 0);
-;}
-
 p{
     text-align: center;
     font-size: 23px;
@@ -108,3 +101,4 @@ h1 {
 }
 
 /* RESPONSIVO */
+
