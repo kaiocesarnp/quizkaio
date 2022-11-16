@@ -1,4 +1,3 @@
-
 //função referenciando o botão start
 function Mudarestado(altern) {
 	let display = document.getElementById(altern).style.display;
@@ -12,7 +11,6 @@ let instrucao = document.querySelector('#instrucao') //seleciona h2
 let recado = document.querySelector('#recado') //seleciona o article do id 'recado', o qual aparece a questão e seu respectivo numero
 let pontos = 0 // variavel de pontos para o placar parcial
 let placar = 0 // variavel do placar final
-
 
 //variavéis das perguntas
 let numquest = document.querySelector('#numquest') //seleciona o numero da questão
@@ -138,7 +136,6 @@ a.setAttribute('value', '1A')
 b.setAttribute('value', '1B')
 c.setAttribute('value', '1C')
 d.setAttribute('value', '1D')
-
 
 // função que monta as próximas questões
 function proximaQuest(nquestao) {
