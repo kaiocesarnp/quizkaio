@@ -91,8 +91,28 @@ let quest5 = {
     correta      : "China",
 }
 
+let quest6 = {
+    numquest   : 6,
+    pergunta     : "De quem é a famosa frase 'penso, logo existo'?",
+    a : "Platão",
+    b : "Socrates",
+    c : "Descartes",
+    d : "Galileu Galilei",
+    correta      : "Descartes",
+}
+
+let quest7 = {
+    numquest   : 7,
+    pergunta     : "Quais são menor e o maior país do mundo?",
+    a : "Nauru e China",
+    b : "Vaticano e Rússia",
+    c : "Malta e Estados Unidos",
+    d : "San Marino e Índia",
+    correta      : "Vaticano e Rússia",
+}
+
 //Variavel com array de objetos acomodando todas as questões
-let questoes = [quest0, quest1, quest2, quest3, quest4, quest5]
+let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7]
 
 let numero = document.querySelector('#numero') //variavel que diz em qual questão está
 let total  = document.querySelector('#total') //define o tamanho do quiz, quantas questões tem
