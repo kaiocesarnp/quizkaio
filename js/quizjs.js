@@ -109,8 +109,18 @@ let quest7 = {
     correta      : "Vaticano e Rússia",
 }
 
+let quest8 = {
+    numquest   : 8,
+    pergunta     : "Qual o livro mais vendido no mundo a seguir à Bíblia?",
+    a : "O Senhor dos Anéis",
+    b : "Dom Quixote",
+    c : "O Pequeno Príncipe",
+    d : "Ela, a Feiticeira",
+    correta      : "Dom Quixote",
+}
+
 //Variavel com array de objetos acomodando todas as questões
-let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7]
+let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8]
 
 let numero = document.querySelector('#numero') //variavel que diz em qual questão está
 let total  = document.querySelector('#total') //define o tamanho do quiz, quantas questões tem
