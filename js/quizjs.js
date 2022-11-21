@@ -119,8 +119,18 @@ let quest8 = {
     correta      : "Dom Quixote",
 }
 
+let quest9 = {
+    numquest   : 9,
+    pergunta     : "O que a palavra legend significa em português?",
+    a : "Legenda",
+    b : "Conto",
+    c : "Lenda",
+    d : "Legendário",
+    correta      : "Lenda",
+}
+
 //Variavel com array de objetos acomodando todas as questões
-let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8]
+let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8, quest9]
 
 let numero = document.querySelector('#numero') //variavel que diz em qual questão está
 let total  = document.querySelector('#total') //define o tamanho do quiz, quantas questões tem
