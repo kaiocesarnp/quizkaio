@@ -129,8 +129,18 @@ let quest9 = {
     correta      : "Lenda",
 }
 
+let quest10 = {
+    numquest   : 10,
+    pergunta     : "Quem pintou 'Guernica'?",
+    a : "Pablo Picasso",
+    b : "Salvador Dalí",
+    c : "Diego Rivera",
+    d : "Paul Cézanne",
+    correta      : "Pablo Picasso",
+}
+
 //Variavel com array de objetos acomodando todas as questões
-let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8, quest9]
+let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8, quest9, quest10]
 
 let numero = document.querySelector('#numero') //variavel que diz em qual questão está
 let total  = document.querySelector('#total') //define o tamanho do quiz, quantas questões tem
