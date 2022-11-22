@@ -141,7 +141,7 @@ let quest10 = {
 
 let quest11 = {
     numquest   : 11,
-    pergunta     : "Qual a montanha mais alta do Brasil??",
+    pergunta     : "Qual a montanha mais alta do Brasil?",
     a : "Monte Roraima",
     b : "Pico da Neblina",
     c : "Pico Paraná",
@@ -149,8 +149,18 @@ let quest11 = {
     correta      : "Pico da Neblina",
 }
 
+let quest12 = {
+    numquest   : 12,
+    pergunta     : "Em qual local da Ásia o português é língua oficial?",
+    a : "Moçambique",
+    b : "Singapura",
+    c : "Filipinas",
+    d : "Macau",
+    correta      : "Macau",
+}
+
 //Variavel com array de objetos acomodando todas as questões
-let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8, quest9, quest10, quest11]
+let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8, quest9, quest10, quest11, quest12]
 
 let numero = document.querySelector('#numero') //variavel que diz em qual questão está
 let total  = document.querySelector('#total') //define o tamanho do quiz, quantas questões tem
