@@ -139,8 +139,18 @@ let quest10 = {
     correta      : "Pablo Picasso",
 }
 
+let quest11 = {
+    numquest   : 11,
+    pergunta     : "Qual a montanha mais alta do Brasil??",
+    a : "Monte Roraima",
+    b : "Pico da Neblina",
+    c : "Pico Paraná",
+    d : "Pico da Bandeira",
+    correta      : "Pico da Neblina",
+}
+
 //Variavel com array de objetos acomodando todas as questões
-let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8, quest9, quest10]
+let questoes = [quest0, quest1, quest2, quest3, quest4, quest5, quest6, quest7, quest8, quest9, quest10, quest11]
 
 let numero = document.querySelector('#numero') //variavel que diz em qual questão está
 let total  = document.querySelector('#total') //define o tamanho do quiz, quantas questões tem
