@@ -6,6 +6,7 @@
     <meta name="author" content="Kaio César">
     <title>QUIZ - PERGUNTAS E RESPOSTAS - @kaiocesare</title>
     <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/exemplo.css" /> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 </head>
 <body>
@@ -13,17 +14,14 @@
     <a href="#" onclick="Mudarestado('altern')" value="start">Start</a> <!--Start no jogo-->
     
     <main id="altern"> <!--Tela principal-->
-        <section>
-
-            <h2 id='instrucao'>
-                Leia atentamente a questão e escolha sua resposta!
-            </h2>
+        <section class="section">
+            <h2 class="section-h2" id='instrucao'> Leia atentamente a questão e escolha sua resposta!</h2>
 
             <article class='questoes'> <!-- article que armazena a questão completa-->
                 
-                <header class='questao'> <!--Parte de cima da questão-->
-                    <span id='numquest'></span> <!--Numero da pergunta-->
-                    <h2 id='pergunta'></h2> <!--Texto da pergunta-->
+                <header class="header"> <!--Parte de cima da questão-->
+                    <span class="header-numquest" id='numquest'></span> <!--Numero da pergunta-->
+                    <h2 class="header-pergunta" id='pergunta'></h2> <!--Texto da pergunta-->
                 </header>
 
                 <div> <!--corpo da pergunta-->
