@@ -10,3 +10,5 @@ Todas as perguntas, alternativas e respostas corretas estão armazenadas em uma 
 Ao final, é exibido ao usuário uma pontuação baseada em quantas alternativas foram respondidas corretamente.
 
 Código 100% comentado.
+
+![Imagem da Aplicação](quiz.jpg)
